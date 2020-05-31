@@ -92,7 +92,7 @@ To run the graphical installation wizard, follow these steps:
 
 To use command line installation, follow these steps:
 
-1. Set your webserver user to be the owner of your unpacked owncloud directory, as in the example below.
+1. Set your webserver user to be the owner of your unpacked ownCloud directory, as in the example below.
     ```
     $ sudo chown -R www-data:www-data /var/www/owncloud/
     ```
