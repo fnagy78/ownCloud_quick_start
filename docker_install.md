@@ -18,7 +18,7 @@ To install ownCloud with docker on a local machine, follow these steps:
     ```
     wget https://raw.githubusercontent.com/owncloud/docs/master/modules/admin_manual/examples/installation/docker/docker-compose.yml
     ```
-3. Create a _.env_ envrionment configuration file with your required configuration settings:
+3. Create a _.env_ environment configuration file with your required configuration settings:
 
     | Setting Name     | Description               | Example   |
     |------------------|---------------------------|-----------|
