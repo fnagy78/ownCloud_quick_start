@@ -4,7 +4,7 @@
 
 ## [Installing ownCloud manually on Linux](/ownCloud_quick_start/manual_install)
 
-## [Adding users](/ownCloud_quick_start/adding_users.md)
+## [Adding users](/ownCloud_quick_start/adding_users)
 
 For additional installation options, see the [ownCloud Download section](https://owncloud.org/download/).
 
