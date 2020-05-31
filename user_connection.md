@@ -1,8 +1,14 @@
+---
+layout: default
+title: ownCloud Quick Start
+---
+
 # Contents
 {:.no_toc}
 
 * List item
 {:toc}
+
 
 Connecting to ownCloud for users
 ===
