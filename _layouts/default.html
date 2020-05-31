@@ -11,9 +11,7 @@
   </head>
 
   <body>
-    <nav>
-        {% include nav.html nav=site.data.menu %}
-    </nav>
+    
     <!-- HEADER -->
     <div id="header_wrap" class="outer">
         <header class="inner">
@@ -32,6 +30,10 @@
           {% endif %}
         </header>
     </div>
+
+    <nav>
+        {% include nav.html nav=site.data.menu %}
+    </nav>
 
     <!-- MAIN CONTENT -->
     <div id="main_content_wrap" class="outer">
