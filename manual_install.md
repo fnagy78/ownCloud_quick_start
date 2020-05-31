@@ -33,24 +33,24 @@ For example:
     For other web servers, install ownCloud outside of the document root.
 6. Configure the Apache web server. See [Configuring the Apache web server](#Configuring-the-Apache-web-server). 
 7. Run the installation wizard. See [Running the installation wizard](#running-the-installation-wizard).  
-8. Set strong directory permissions. See [this page](https://doc.owncloud.org/server/10.4/admin_manual/installation/installation_wizard.html#post-installation-steps).
+8. Set strong directory permissions. Follow [this procedure](https://doc.owncloud.org/server/10.4/admin_manual/installation/installation_wizard.html#post-installation-steps).
 9. White-list all URLs used to access your ownCloud server in your `config.php` file, under the trusted_domains setting.
 
 ## Configuring the Apache web server
 
 1. For Apache On Debian, Ubuntu, and their derivatives, create an `/etc/apache2/sites-available/owncloud.conf` file with the following content. Replace file paths with your own paths.
-        ```
-        Alias /owncloud "/var/www/owncloud/"
+    ```
+    Alias /owncloud "/var/www/owncloud/"
 
-        <Directory /var/www/owncloud/>
-         Options +FollowSymlinks
-         AllowOverride All
-        
-         <IfModule mod_dav.c>
-          Dav off
-         </IfModule>
-        </Directory>
-        ```
+    <Directory /var/www/owncloud/>
+        Options +FollowSymlinks
+        AllowOverride All
+    
+        <IfModule mod_dav.c>
+        Dav off
+        </IfModule>
+    </Directory>
+    ```
 2. Create a symlink to `/etc/apache2/sites-enabled`:
      ```
      ln -s /etc/apache2/sites-available/owncloud.conf /etc/apache2/sites-enabled/owncloud.conf
