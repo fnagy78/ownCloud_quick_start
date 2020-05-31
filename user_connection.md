@@ -1,8 +1,3 @@
----
-layout: default
-title: ownCloud Quick Start
----
-
 # Contents
 {:.no_toc}
 
