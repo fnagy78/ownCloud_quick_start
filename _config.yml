@@ -1,5 +1,8 @@
 theme: jekyll-theme-slate
 
+title: ownCloud Quick Start
+description: A summary of the main steps to install and use ownCloud.
+
 header_pages:
   - docker_install.md
   - manual_install.md
