@@ -1,1 +1,6 @@
 theme: jekyll-theme-slate
+
+header_pages:
+  - docker_install.md
+  - manual_install.md
+  - user_connection.md
