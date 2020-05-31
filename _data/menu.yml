@@ -1,14 +1,14 @@
 - text: Home
   url: /ownCloud_quick_start/
 - text: Admin quick start
-  url: /ownCloud_quick_start/
+  url:
   subitems:
     - text: Installing ownCloud with docker
-      url: /ownCloud_quick_start/docker_install/
+      url: /ownCloud_quick_start/docker_install
     - text: Installing ownCloud manually on Linux
-      url: /ownCloud_quick_start/manual_install/
+      url: /ownCloud_quick_start/manual_install
 - text: User quick start
-  url: /ownCloud_quick_start/
+  url:
   subitems:
     - text: Connecting to ownCloud for users
-      url: /ownCloud_quick_start/user_connection/
+      url: /ownCloud_quick_start/user_connection
