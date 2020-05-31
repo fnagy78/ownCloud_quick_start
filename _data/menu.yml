@@ -7,6 +7,8 @@
       url: /ownCloud_quick_start/docker_install
     - text: Installing ownCloud manually on Linux
       url: /ownCloud_quick_start/manual_install
+    - text: Adding users
+      url: /ownCloud_quick_start/adding_users
 - text: User quick start
   url:
   subitems:

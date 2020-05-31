@@ -1,5 +1,4 @@
-Installing the ownCloud server with docker
-===
+# Installing the ownCloud server with docker
 
 This quick start procedure is a short version of [Docker installation](https://doc.owncloud.org/server/10.4/admin_manual/installation/docker/).
 

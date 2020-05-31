@@ -5,8 +5,7 @@
 {:toc}
 
 
-Connecting to ownCloud for users
-===
+# Connecting to ownCloud for users
 
 This quick start guide is the short version of parts of the [ownCloud User manual](https://doc.owncloud.org/server/10.4/user_manual/).
 
@@ -16,8 +15,7 @@ To connect to ownCloud as a user, you can use the following options:
 * Android app
 * iOS app
 
-Using the ownCloud web user interface
----
+## Using the ownCloud web user interface
 
 You can connect to your ownCloud server using the following supported web browsers:
 * Edge (current version on Windows 10)
@@ -29,8 +27,7 @@ You can connect to your ownCloud server using the following supported web browse
 1. Open a web browser, and navigate to your ownCloud server.
 2. Enter your user name and password.
 
-Using the ownCloud desktop client
----
+## Using the ownCloud desktop client
 
 You can install the desktop client on the following operating systems:
 * Windows 7 or higher
@@ -60,8 +57,8 @@ You can install the desktop client on the following operating systems:
    
 **Note:** You need to update the client using package manager when the client displays a notification about a new update. You must also have a password manager enabled, such as GNOME Keyring or KWallet, so that the client can log in automatically.
 
-Using the ownCloud Android app
----
+## Using the ownCloud Android app
+
 For more information, see [the ownCloud documentation](https://doc.owncloud.com/android/).
 
 Download and install the app from [Google Play](https://play.google.com/store/apps/details?id=com.owncloud.android).
@@ -70,8 +67,8 @@ See also the [ownCloud download page](https://owncloud.org/download/#owncloud-mo
 
 **Note:** If you use a customized ownCloud Android app, for example from your employer, follow the instructions for the customized app.
 
-Using the ownCloud iOS app
----
+## Using the ownCloud iOS app
+
 For more information, see [the ownCloud documentation](https://doc.owncloud.com/ios/).
 
 1. Download and install the app from [iTunes](https://apps.apple.com/app/id1359583808?ls=1).
