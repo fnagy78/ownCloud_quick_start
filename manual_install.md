@@ -1,5 +1,4 @@
-Installing the ownCloud server manually on Linux
-===
+# Installing the ownCloud server manually on Linux
 
 This quick start procedure is a short version of [Manual installation](https://doc.owncloud.org/server/10.4/admin_manual/installation/manual_installation.html).
 
@@ -31,7 +30,7 @@ For example:
     cp -r owncloud /var/www
     ```
     For other web servers, install ownCloud outside of the document root.
-6. Configure the Apache web server. See [Configuring the Apache web server](#Configuring-the-Apache-web-server). 
+6. Configure the Apache web server. See [Configuring the Apache web server](#Configuring-the-Apache-web-server).
 7. Run the installation wizard. See [Running the installation wizard](#running-the-installation-wizard).  
 8. Set strong directory permissions. Follow [this procedure](https://doc.owncloud.org/server/10.4/admin_manual/installation/installation_wizard.html#post-installation-steps).
 9. White-list all URLs used to access your ownCloud server in your `config.php` file, under the trusted_domains setting.
@@ -45,7 +44,7 @@ For example:
     <Directory /var/www/owncloud/>
         Options +FollowSymlinks
         AllowOverride All
-    
+
         <IfModule mod_dav.c>
         Dav off
         </IfModule>
@@ -63,7 +62,7 @@ For example:
        * `mod_dir`
        * `mod_mime`
        * `mod_unique_id`   
-         **Note:** After you enable `mod_unique_id`, ensure that the value set for `UNIQUE_ID` in the output of `phpinfo()` is the same as the value in ownCloud’s log file. 
+         **Note:** After you enable `mod_unique_id`, ensure that the value set for `UNIQUE_ID` in the output of `phpinfo()` is the same as the value in ownCloud’s log file.
 4. Disable any server-configured authentication for ownCloud, as it uses Basic authentication internally for DAV services. If you have turned on authentication on a parent folder, you can disable the authentication specifically for the ownCloud entry. For example, add `Satisfy Any` to the `<Directory>` section of the `owncloud.conf` file.
 5. If you use SSL, specify `ServerName` in the server configuration, and in the `CommonName` field of the certificate. If you want your ownCloud to be reachable on the Internet, then set both of these to the domain you want to reach your ownCloud server.
 6. Restart Apache:
@@ -83,7 +82,7 @@ For example:
 ## Running the installation wizard
 
 **Important:** Protect the installation wizard with authentication and access control.
- 
+
 To run the graphical installation wizard, follow these steps:
 
 1. Open your web browser, and navigate to http://localhost/owncloud.
@@ -106,4 +105,3 @@ To use command line installation, follow these steps:
    --admin-user "admin" --admin-pass "password"
    ```
 3. When the command completes, apply the correct permissions to your ownCloud files and directories.
-
